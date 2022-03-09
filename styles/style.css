@@ -6,3 +6,162 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    /* overflow: hidden; */
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:10px
+}
+
+nav img{
+    width: 200px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 15px;
+    font-size: 20px;
+    padding: 0px 50px;
+}
+
+.main{
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: 800px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.main h1{
+    font-size: 80px;
+    font-weight: 200;
+    margin: 25px
+}
+
+.main p{
+    font-size: 25px;
+    font-weight: 200;
+    width: 640px;
+    margin: 0;
+    text-align: center;
+}
+
+.discover h2{
+    text-align: center;
+    margin: 50px 0 10px;
+    font-size: 32px;
+    font-weight: 500px;
+}
+
+.discover hr{
+    width: 200px;
+    border-top: 4px solid #00B172;
+}
+
+.features{
+    margin: 100px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline
+
+}
+
+.features-box{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+
+.features-box img{
+    width: 150px;
+}
+
+.features-box h3 {
+    color: #00B172;
+    font-size: 22px
+}
+
+.features-box p {
+    color: #1A1A1A;
+    font-size:20px;
+    font-weight: 200;
+    margin-top: 25px;
+    margin: 0 40px ; 
+}
+
+.kaynewest {
+    background-color: #00B172;
+    background-image: url(../images/spotify-icon-white.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    height: 650px;
+    padding-bottom: 10px;
+    margin: 0 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    
+    color: white;
+}
+
+.kayne-about {
+    padding-left: 100px;
+    
+}
+
+.kayne-about h4 {
+    font-size: 30px;
+    border-bottom: white solid 2px;
+    margin-bottom: 40px;
+}
+
+.kayne-about h5 {
+    font-size: 22px;
+    font-weight:900;
+    padding-top: 5px;
+    width:320px;
+    margin: 10px 0 0 0;
+}
+
+.kayne-about p {
+    font-size: 20px;
+    font-weight:100;
+    padding: 5px 0;
+    width:320px
+}
+
+.kaynewest img {
+    width: 255px;
+    padding-right: 100px;
+}
